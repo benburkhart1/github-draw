@@ -49,8 +49,8 @@ cd "${DirectoryName}"
 # Initialize the git repo
 git init
 
-git config --global user.name "${GithubUsername}"
-git config --global user.email "${GithubEmail}"
+git config --local user.name "${GithubUsername}"
+git config --local user.email "${GithubEmail}"
 
 # To multiple commit counts by
 Multiplier=1
